@@ -13,7 +13,7 @@ bun run format     # Prettier (writes in-place)
 
 No test suite is configured.
 
-## Architecture
+## Architecture this
 
 This is a **TanStack Start** SSR app (React 19, TypeScript) built on Vite with Bun as the package manager. The entry point is `src/start.ts`; the server wrapper is `src/server.ts` (wraps `@tanstack/react-start/server-entry` and handles h3's swallowed SSR errors).
 
